@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_BACKEND_URL,
+  baseURL: import.meta.env.VITE_BACKEND_URL || 
+           (import.meta.env.DEV ? "http://localhost:5000" : "https://projec-90hl.onrender.com"),
 });
 
 // Attach JWT token to every request
