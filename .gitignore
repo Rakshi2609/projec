@@ -1,0 +1,64 @@
+# ----------------------
+# Node modules
+# ----------------------
+node_modules/
+**/node_modules/
+
+# ----------------------
+# Environment files
+# ----------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------
+# Logs
+# ----------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Editor / IDE
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# Build outputs
+# ----------------------
+dist/
+build/
+out/
+coverage/
+
+# ----------------------
+# Vite
+# ----------------------
+frontend/vite-project/dist/
+
+# ----------------------
+# Package lock duplicates
+# ----------------------
+frontend/package-lock.json
+
+# ----------------------
+# Temporary files
+# ----------------------
+*.tmp
+*.temp
+*.swp
+
+# ----------------------
+# MongoDB local files
+# ----------------------
+*.mongodb
+data/
