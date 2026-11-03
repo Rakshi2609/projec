@@ -59,4 +59,3 @@ frontend/package-lock.json
 # ----------------------
 *.mongodb
 data/
-config.bat
